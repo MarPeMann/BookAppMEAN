@@ -53,32 +53,4 @@ router.get('/:id', function(req,res){
   });
 });
 
-// router.get('/mybooks', function(req,res){
-//   db.Books
-//   .findOne({ id:req.user._id })
-//   .populate({path:'reviews'})
-//   .exec(function (err, books) {
-//     if (err) throw err;
-//     //console.log('The creator is %s', story._creator.name);
-//     // prints "The creator is Aaron"
-//     res.send(books);
-//
-//   });
-//
-// });
-
-
-
-// router.post('/add',function(req,res){
-//
-// 	qry.saveBookData(req, res);
-// });
-
-/*router.put('/', function(req,res){
-
-	qry.editBoodData(req, res);
-});*/
-
-
-
 module.exports = router;
