@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<% include /partials/head %>
+<body>
+
+  <% include /partials/navbar %>
+  <!-- <ul>
+  <% books.forEach(function(book) { %>
+  <li><%= book.title %>  <%= book.author %></li>
+  <% }); %>
+
+</ul> -->
+<div class="container">
+  <div class="row">
+    <h3>Books read recently</h3>
+    <div class="list-group">
+      <% books.forEach(function(book) { %>
+        <a href="/books/<%= book._id %>" class="list-group-item col-md-12 col-sm-12 col-xs-12">
+          <h4 class="list-group-item-heading"><%= book.title %></h4>
+          <p class="list-group-item-text"><%= book.author %></p>
+        </a>
+        <% }); %>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

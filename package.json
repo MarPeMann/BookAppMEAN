@@ -1,0 +1,34 @@
+{
+  "name": "Breadarook",
+  "version": "1.0.0",
+  "description": "App that you can keep track of your activites, eg.reading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mannik",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.5.1",
+    "express": "^4.13.3",
+    "express-session": "^1.13.0",
+    "json-web-token": "^1.6.3",
+    "jsonwebtoken": "^5.4.1",
+    "jwt-simple": "^0.4.0",
+    "mongoose": "^4.2.6",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarPeMann/breadarook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarPeMann/breadarook/issues"
+  },
+  "homepage": "https://github.com/MarPeMann/breadarook"
+}

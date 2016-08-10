@@ -1,0 +1,13 @@
+<div class="jumbotron">	
+	<form class="form-login">
+		<h3>Fill in your details</h3>
+		<input class="form-control" type="text" placeholder="Your username" id="registerUser" ng-model="username">
+		
+		<input class="form-control" type="password" placeholder="Your password" id="registerPass" ng-model="password">
+
+		<input class="form-control" type="text" placeholder="Your email" id="registerEmail" ng-model="email">
+
+		<input type="submit" class="btn btn-lg btn-primary btn-block" role="button" value="Create account" ng-click="registerUser(username,password,email)">
+         
+    </form>
+</div>

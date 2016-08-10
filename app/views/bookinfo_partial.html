@@ -1,0 +1,64 @@
+<div class="container"> 
+	<div class="row">
+		<div class="col-md-3">
+			<img src="http://placehold.it/200" class="img-thumbnail">
+
+		</div>
+
+		<div class="col-md-6">
+			<div class="well"> 
+				<h2>{{book.title}}</h2>
+				<h4>{{book.author}}</h4>
+			</div>
+		
+			<p>{{book.description}}</p>
+			<small><em>By User Name</em></small>
+			<br/>
+			<br/>
+			<br/>
+		</div>
+		<div class="col-md-3">    
+			<div class="panel panel-default">
+				<div class="panel-heading">Other work by {{book.author}}</div>
+				<div class="panel-body">
+					<ul>
+						<li>dfghdgf</li>
+						<li>dfghdgf</li>
+						<li>dfghdgf</li>
+						<li>dfghdgf</li>
+						<li>dfghdgf</li>
+						<li>dfghdgf</li>
+						<li>dfghdgf</li>
+						<li>dfghdgf</li>
+					</ul>
+				</div>
+    		</div>
+		</div>
+
+	</div>	
+
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<div class="well">Add a comment below</div>
+			<form role="form">
+				<div class="form-group">
+					<textarea ng-model="comment_body" class="form-control noresize" rows="5" id="comment"></textarea>
+				</div>
+				<button type="submit" class="btn btn-warning" ng-click="addComment()">Submit</button>
+
+				<h4>Comments</h4>
+				<div class="panel panel-primary" ng-repeat="msg in comments">
+					<div class="panel-heading" >
+						<h5>Troll of the Forum</h5>
+					</div>
+					<div class="panel-body">
+					 <p>{{msg.body}}</p>
+					 </div>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+
+</div>

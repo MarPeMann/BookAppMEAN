@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html>
+
+
+    <title>Signup</title>
+    <% include /partials/head %>
+
+  <body>
+
+    <% include /partials/navbar %>
+
+    <div class="jumbotron">
+    	<form class="form-login" method="post" action="/register">
+    		<h3>Fill in your details</h3>
+    		<input class="form-control" type="text" placeholder="Your username" id="registerUser" name="username">
+
+    		<input class="form-control" type="password" placeholder="Your password" id="registerPass" name="password">
+
+    		<input class="form-control" type="text" placeholder="Your email" id="registerEmail" name="email">
+
+    		<input type="submit" class="btn btn-lg btn-primary btn-block" role="button" value="Create account">
+
+        </form>
+    </div>
+
+  </body>
+</html>

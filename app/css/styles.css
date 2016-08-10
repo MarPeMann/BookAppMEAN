@@ -1,0 +1,85 @@
+/*p{
+    color:greenyellow;
+    font-size: 32px;
+
+
+}*/
+
+.omaluokka{
+
+    background-color: aquamarine;
+
+
+}
+
+.fancy{
+    color: green;
+    border: 2px;
+    background-color: aquamarine;
+    border-radius: 8px;
+}
+
+#jokuid{
+    margin: 100px;
+}
+
+.login_container{
+    width: 580px;
+    margin: 9px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: cadetblue;
+    padding: 10px;
+
+
+}
+/*.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #408080;
+    border-color: #e7e7e7;
+
+}li{
+    color: #ffffff;
+}*/
+
+.form-login {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  opacity: 100%;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+.jumbotron{
+    /*max-width:400px;*/
+    /*background-color: #DEB887;*/
+    /*background-color: inherit;*/
+    opacity: 100%;
+    margin: 0 auto;
+}
+
+#welcome{
+    /*max-width:400px;*/
+    /*background-color: #DEB887;*/
+    background-image:url('banner.jpg');
+    /*background-color: black;*/
+    opacity: 0.5;
+
+    margin: 0 auto;
+}
+.form-welcome {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  /*opacity: 100%;*/
+}
+
+.list-group-item{
+    /*background-color: #DEB887; */
+
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:black;
+    background-color:#fcd900;
+    }

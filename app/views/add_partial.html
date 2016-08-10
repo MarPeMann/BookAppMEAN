@@ -1,0 +1,41 @@
+<div class="container">
+	<form>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+				<input type="text" id="title" ng-model="book.title" placeholder="Book title" class="form-control" width="50px"/>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+		        <div class="form-group">
+		        <input type="text" id="author" ng-model="book.author" placeholder="Book author" class="form-control"/>
+		        </div>
+	        </div>
+	    </div>
+	    <div class="row">
+		    <div class="col-md-6">
+		        <div class="form-group">
+		        <input type="text" id="author" ng-model="book.isbn" placeholder="Book isbn" class="form-control"/>
+		        </div>
+	    	</div>
+	     </div>	
+	    <div class="row">
+	    	<div class="col-md-6">
+		        <div class="form-group">
+		        	<label for="description">Share us your thoughts about this book</label>
+		        <textarea rows="4" id="description" ng-model="book.description" class="form-control"></textarea>
+		        </div>
+	        </div> 
+	    </div>   
+	   
+        
+       
+
+	        <input type="button" class="btn btn-primary" id="sendBtn" value="Add" ng-click="addBook()"/>
+	        <input type="button" class="btn btn-positive" id="doneBtn" value="Done"/>
+       
+	</form>
+
+</div>
